@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/hug/:path*",
+      "destination": "https://hug-gs.onrender.com/hug/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
